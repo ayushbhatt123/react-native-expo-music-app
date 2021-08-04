@@ -1,0 +1,52 @@
+{
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^12.0.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/slider": "3.0.3",
+    "@react-navigation/bottom-tabs": "^5.11.11",
+    "@react-navigation/native": "^5.9.4",
+    "@react-navigation/stack": "^5.14.5",
+    "axios": "^0.21.1",
+    "expo": "~42.0.1",
+    "expo-av": "~9.2.3",
+    "expo-constants": "~11.0.1",
+    "expo-linear-gradient": "~9.2.0",
+    "expo-media-library": "~12.1.2",
+    "expo-network": "~3.2.0",
+    "expo-secure-store": "~10.2.0",
+    "expo-status-bar": "~1.0.4",
+    "lottie-react-native": "4.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "~0.63.4",
+    "react-native-elements": "^3.4.2",
+    "react-native-gesture-handler": "~1.10.2",
+    "react-native-keyboard-aware-scroll-view": "^0.9.4",
+    "react-native-reanimated": "~2.2.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "~3.4.0",
+    "react-native-snap-carousel": "^3.9.1",
+    "react-native-web": "~0.13.12",
+    "react-redux": "^7.2.4",
+    "redux": "^4.1.0",
+    "redux-thunk": "^2.3.0",
+    "styled-components": "^5.3.0",
+    "styled-system": "^5.1.5",
+    "expo-splash-screen": "~0.11.2",
+    "expo-updates": "~0.8.1",
+    "react-native-unimodules": "~0.14.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.0"
+  },
+  "private": true,
+  "name": "client",
+  "version": "1.0.0"
+}

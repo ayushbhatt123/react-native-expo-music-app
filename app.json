@@ -1,0 +1,53 @@
+{
+  "expo": {
+    "name": "Music App - Free music player",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo/logo.png",
+    "slug": "MusicApp-FreeMusicPlayer",
+    "splash": {
+      "image": "./assets/logo/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#000000"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "com.AyushBhatt.musicApp",
+      "buildNumber": "1.0.0",
+      "supportsTablet": true,
+      "splash": {
+        "image": "./assets/ios_splash/ios.png",
+        "resizeMode": "contain"
+      }
+    },
+    "android": {
+      "package": "com.AyushBhatt.musicApp",
+      "versionCode": 1,
+      "enableDangerousExperimentalLeanBuilds": "true",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo/logo.png",
+        "backgroundColor": "#000000"
+      },
+      "splash": {
+        "mdpi": "./assets/android_splash/MDPI.png",
+        "hdpi": "./assets/android_splash/HDPI.png",
+        "xhdpi": "./assets/android_splash/XHDPI.png",
+        "xxhdpi": "./assets/android_splash/XXHDPI.png",
+        "xxxhdpi": "./assets/android_splash/XXXHDPI.png",
+        "resizeMode": "contain"
+      }
+    },
+    "web": {
+      "favicon": "./assets/logo/logo.png"
+    },
+    "extra": {
+      "SERVER_URL": "https://wb72jqvd5-3phzs6tyumr8xcgfk9ne.herokuapp.com",
+      "KEY": "5CymEGhDN9xUCFKRsaeyC9F4y"
+    }
+  }
+}
